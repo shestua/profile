@@ -75,9 +75,16 @@ img {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
-  .card {
-    width: 700px;
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
   }
 }
